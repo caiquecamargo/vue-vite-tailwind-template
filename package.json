@@ -8,6 +8,7 @@
     "test": "jest --coverage --watch src"
   },
   "dependencies": {
+    "@caiquecamargo/vue-components": "^0.0.2",
     "vue": "^3.0.5",
     "vue-router": "^4.0.5"
   },
