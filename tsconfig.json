@@ -18,7 +18,12 @@
       {
         "name": "@vuedx/typescript-plugin-vue"
       }
-    ]
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+  "exclude": ["src/**/*.spec.ts", "src/**/*.spec.snap.ts"]
 }

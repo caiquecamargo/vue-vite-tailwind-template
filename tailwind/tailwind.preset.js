@@ -50,12 +50,12 @@ module.exports = {
   },
   plugins: [
     require("./plugins/buttons"),
-    require("./plugins/textClamp"),
-    require("./plugins/decorators"),
     require("./plugins/baseStyles"),
     require("./plugins/textShadow"),
     require("./plugins/backgrounds"),
     require("./plugins/dividers"),
+    require("@caiquecamargo/tailwind-clamp-text"),
+    require("@caiquecamargo/tailwind-decorators"),
     require("@tailwindcss/forms"),
   ],
 };
